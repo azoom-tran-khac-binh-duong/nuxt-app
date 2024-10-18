@@ -1,0 +1,13 @@
+{
+  "name": "drizzle-layer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "dependencies": {
+    "@types/pg": "^8.11.10",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.26.2",
+    "drizzle-orm": "^0.35.1",
+    "pg": "^8.13.0"
+  }
+}
