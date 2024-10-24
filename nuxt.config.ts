@@ -8,7 +8,8 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   modules: [
-    '@primevue/nuxt-module'
+    '@primevue/nuxt-module',
+    'nuxt-vuefire',
   ],
   primevue: {
     autoImport: false,
@@ -21,5 +22,16 @@ export default defineNuxtConfig({
   },
   css: [
     'primeicons/primeicons.css'
-  ]
+  ],
+  vuefire: {
+    auth: {
+      enabled: true,
+      sessionCookie: true,
+    },
+    config: {
+      projectId: process.env.FIREBASE_PROJECT_ID,
+      apiKey: process.env.FIREBASE_API_KEY,
+      authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+    },
+  },
 })
