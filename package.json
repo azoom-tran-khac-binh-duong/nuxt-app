@@ -13,14 +13,18 @@
     "db-seed": "tsx ./db/seed.ts"
   },
   "dependencies": {
+    "@primevue/themes": "^4.1.1",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.35.3",
     "nuxt": "^3.13.2",
     "pg": "^8.13.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.1.1",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@primevue/nuxt-module": "^4.1.1",
     "@types/pg": "^8.11.10",
     "drizzle-kit": "^0.26.2",
     "tsx": "^4.19.1"
